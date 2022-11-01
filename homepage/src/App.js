@@ -173,13 +173,13 @@ function App() {
                     <BrowserRouter>
 
                         <Link to="/homepage/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>Home</Link>{' '}
-                        <Link to="/dianaefimova.github.io/About/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
-                        <Link to="/dianaefimova.github.io/MyProjects/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>My Projects</Link>{' '}
+                        <Link to="/About" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
+                        <Link to="/MyProjects" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>My Projects</Link>{' '}
                        
                         <Routes>
                             <Route path="/homepage/" element={<Home />} />
-                            <Route path="/dianaefimova.github.io/About/" element={<About />} />
-                            <Route path="/dianaefimova.github.io/MyProjects/" element={<MyProjects />} />
+                            <Route path="/About" element={<About />} />
+                            <Route path="/MyProjects" element={<MyProjects />} />
                         </Routes>
                     </BrowserRouter>
 
