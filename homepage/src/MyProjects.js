@@ -20,7 +20,7 @@ function MyProjects()  {
       <p>
          This page was written on React in order to develope and demonstarte my skills. 
      </p>  
-     <a href ="https://github.com/dianaefimova/Diana-s-page">GitHub My Page</a>
+     <a href ="https://github.com/dianaefimova/homepage/tree/main/homepage">GitHub My Page</a>
      </div>
      </Fade>
      </div>
