@@ -1,7 +1,9 @@
 {
   "name": "homepage",
   "version": "0.1.0",
-  "homepage": "https://dianaefimova.github.io/homepage/#",
+  "homepage": "https://dianaefimova.github.io/homepage",
+  "homepage1": "https://dianaefimova.github.io/homepage/About",
+  "homepage2": "https://dianaefimova.github.io/homepage/MyProjects",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
