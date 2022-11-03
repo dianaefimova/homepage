@@ -1,36 +1,34 @@
 import React from 'react';
+import './App.css';
 import Fade from "react-reveal/Reveal";
 import './clouds.css';
-import './App.css';
-import index2 from './pictures/index2.jpeg';
-import index from './pictures/index.jpeg';
-function Home() {
-  return( 
-    <div>
-     
-     <h1>Diana Efimova</h1>
-     <header>Full-stack developer</header>
-     
-    <div className="Pics">
-      <img  style={{ width: 320, height: 400, marginRight: 50}} src={index2} alt="Pic2" />
-      <img style={{ width: 320, height: 400}} src={index} alt="Pic"  />
-      </div>
-     
-     
-    <Fade bottom >
-     <header>Contact me:</header>
-     <p>Email: diana.efimova.110202@gmail.com</p>
- 
-     <a href="https://www.linkedin.com/in/diana-efimova-34b5711b4">
-     <b>Linkedin</b>
-      </a>
+import index3 from './pictures/index3.jpeg';
+function About() {
+  const showAlert = () => {
+    alert(`But I have the best cat in the world!`);
     
-     </Fade>
-     
+  }
+  return(
+    <div>
+        <h1>Hey there!</h1>
 
+<div className="shape">
+ <Fade bottom >
+<div className="text-block">
+      <p>
+        I'm Software engineering student from Tamk. I came to coding for practical reasons but ended up finding my life passion. 
+        At the moment I'm focusing on web development. I'm looking for opportunity to expand my knowladge on prcatice in a good team.
+        I love sport. I've been playing volleyball for ages! If you'd like to play, hit me up, I can show some good volley fields!
+        I'm a <button style={{backgroundColor: 'white'}}onClick={showAlert}>dog person</button> and I have to hold myself not to flood this website with my pets pictures.
+      </p>
 
+    </div>
+    </Fade>
+    <img  style={{ width: 600, height: 400, marginLeft: 5}} src={index3} alt="Pic3" />
+    </div>
+    
     </div>
   )
 }
 
-export default Home;
+export default About;
