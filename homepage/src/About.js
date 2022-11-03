@@ -18,7 +18,7 @@ function About() {
       <p>
         I'm Software engineering student from Tamk. I came to coding for practical reasons but ended up finding my life passion. 
         At the moment I'm focusing on web development. I'm looking for opportunity to expand my knowladge on prcatice in a good team.
-        I love sport. I've been playing volleyball for ages! If you'd like to play, hit me up, I can show some good volley fields!
+        Talking about my hobbies, I love sport. I've been playing volleyball for ages! If you'd like to play, hit me up, I can show some good volley fields!
         I'm a <button style={{backgroundColor: 'white'}}onClick={showAlert}>dog person</button> and I have to hold myself not to flood this website with my pets pictures.
       </p>
 
