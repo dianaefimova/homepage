@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianaefimova/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianaefimova/homepage/issues"
+  },
+  "homepage": "https://github.com/dianaefimova/homepage#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "description": "",
+  "proxy": "http://localhost:5000"
+}

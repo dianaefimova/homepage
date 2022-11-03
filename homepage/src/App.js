@@ -1,13 +1,32 @@
+import React, { Component } from 'react';
 import {Route, Link, Routes, BrowserRouter } from "react-router-dom"
-import React from 'react';
-
 import Home from "./Home";
 import About from "./About";
 import MyProjects from "./MyProjects";
 import './clouds.css';
 import './App.css';
-
-function App() {
+class App extends Component {
+    state = {
+        data: null
+      };
+    
+      componentDidMount() {
+        this.callBackendAPI()
+          .then(res => this.setState({ data: res.express }))
+          .catch(err => console.log(err));
+      }
+        // fetching the GET route from the Express server which matches the GET route from server.js
+      callBackendAPI = async () => {
+        const response = await fetch('/express_backend');
+        const body = await response.json();
+    
+        if (response.status !== 200) {
+          throw Error(body.message) 
+        }
+        return body;
+      };
+    
+      render() {
     return (
         <div className="cloudPane">
             <div className="stars">
@@ -170,6 +189,7 @@ function App() {
 
             <div className="App">
                 <div className="Menu" style={{ width: "100vw", backgroundColor: "00ffff" }}>
+               
                 <BrowserRouter>
                         <Link to="/homepage/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>Home</Link>{' '}
                         <Link to="/homepage/About" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
@@ -187,5 +207,5 @@ function App() {
         </div>
     )
 }
-
+      }
 export default App;
