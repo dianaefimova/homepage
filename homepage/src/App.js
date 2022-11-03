@@ -174,12 +174,12 @@ function App() {
 
 
                         <Link to="/homepage/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>Home</Link>{' '}
-                        <Link to="/homepage/About" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
+                        <Link to="/homepage/#/About" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
                         <Link to="/MyProjects" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>My Projects</Link>{' '}
                        
                         <Routes>
                             <Route path="/homepage/" element={<Home />} />
-                            <Route path="/homepage/About" element={<About />} />
+                            <Route path="/homepage/#/About" element={<About />} />
                             <Route path="/MyProjects" element={<MyProjects />} />
                         </Routes>
                    </BrowserRouter>
