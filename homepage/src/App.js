@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Route, Link, Routes, BrowserRouter } from "react-router-dom"
+import {Route, Link, Routes, BrowserRouter, HashRouter } from "react-router-dom"
 import Home from "./Home";
 import About from "./About";
 import MyProjects from "./MyProjects";
@@ -189,18 +189,19 @@ class App extends Component {
 
             <div className="App">
                 <div className="Menu" style={{ width: "100vw", backgroundColor: "00ffff" }}>
+ 
                
-                <BrowserRouter>
-                        <Link to="/homepage/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>Home</Link>{' '}
-                        <Link to="/homepage/About" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
-                        <Link to="/homepage/MyProjects" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>My Projects</Link>{' '}
+                <HashRouter>
+                        <Link to="/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>Home</Link>{' '}
+                        <Link to="/About" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
+                        <Link to="/MyProjects" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>My Projects</Link>{' '}
                        
                         <Routes>
-                            <Route path="/homepage/" element={<Home />} />
-                            <Route path="/homepage/About" element={<About />} />
-                            <Route path="/homepage/MyProjects" element={<MyProjects />} />
+                            <Route path="/" element={<Home />} />
+                            <Route path="/About" element={<About />} />
+                            <Route path="/MyProjects" element={<MyProjects />} />
                         </Routes>
-                   </BrowserRouter>
+                   </HashRouter>
 
                 </div>
             </div>
