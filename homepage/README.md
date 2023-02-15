@@ -1,3 +1,12 @@
+# Profile web page by Diana Efimova
+
+The purpose of the project is to demonstrate my web development skills. In order to see the website, go to https://dianaefimova.github.io/homepage/ It is recommended to open with Google Chrome.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
