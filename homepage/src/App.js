@@ -1,191 +1,83 @@
-import React from 'react';
-import {Route, Link, Routes, HashRouter } from "react-router-dom"
-import Home from "./Home";
-import About from "./About";
-import MyProjects from "./MyProjects";
-import './clouds.css';
+import React, { useEffect } from 'react';
+import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import Home from './Home';
+import MyProjects from './MyProjects';
 import './App.css';
-function App() {
-    return (
-        <div className="cloudPane">
-            <div className="stars">
-                <div className="star" id="star1"></div>
-                <div className="star"></div>
-                <div className="star" id="star2"></div>
-                <div className="star"></div>
-                <div className="star" id="star3"></div>
-                <div className="star"></div>
-                <div className="star" id="star4"></div>
-                <div className="star"></div>
-                <div className="star" id="star5"></div>
-                <div className="star"></div>
-                <div className="star" id="star6"></div>
-                <div className="star"></div>
-                <div className="star" id="star7"></div>
-                <div className="star"></div>
-                <div className="star" id="star8"></div>
-                <div className="star"></div>
-                <div className="star" id="star9"></div>
-                <div className="star"></div>
-                <div className="star" id="star10"></div>
-                <div className="star"></div>
-                <div className="star" id="star11"></div>
-                <div className="star"></div>
-            </div>
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
-            <div className="bigCloud" id="cloud1">
-                <div className="largeCircle" id="circ1">
 
-                    <div className="largeCircle" id="circ1shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ2">
-                    <div className="middleCircle" id="circ2shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ3">
-                    <div className="middleCircle" id="circ3shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ4"></div>
-                <div className="smallCircle" id="circ5">
-                    <div className="smallCircle" id="circ5shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ6">
-                    <div className="smallCircle" id="circ6shadow"></div>
-                </div>
-            </div>
-            <div className="bigCloud" id="cloud2">
-                <div className="largeCircle" id="circ1">
-                    <div className="largeCircle" id="circ1shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ2">
-                    <div className="middleCircle" id="circ2shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ3">
-                    <div className="middleCircle" id="circ3shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ4"></div>
-                <div className="smallCircle" id="circ5">
-                    <div className="smallCircle" id="circ5shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ6">
-                    <div className="smallCircle" id="circ6shadow"></div>
-                </div>
-            </div>
+const App = () => {
 
-            <div className="bigCloud" id="cloud3">
-                <div className="largeCircle" id="circ1">
-                    <div className="largeCircle" id="circ1shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ2">
-                    <div className="middleCircle" id="circ2shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ3">
-                    <div className="middleCircle" id="circ3shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ4"></div>
-                <div className="smallCircle" id="circ5">
-                    <div className="smallCircle" id="circ5shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ6">
-                    <div className="smallCircle" id="circ6shadow"></div>
-                </div>
-            </div>
-
-            <div className="bigCloud" id="cloud4">
-                <div className="largeCircle" id="circ1">
-                    <div className="largeCircle" id="circ1shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ2">
-                    <div className="middleCircle" id="circ2shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ3">
-                    <div className="middleCircle" id="circ3shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ4"></div>
-                <div className="smallCircle" id="circ5">
-                    <div className="smallCircle" id="circ5shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ6">
-                    <div className="smallCircle" id="circ6shadow"></div>
-                </div>
-            </div>
-
-            <div className="bigCloud" id="cloud5">
-                <div className="largeCircle" id="circ1">
-                    <div className="largeCircle" id="circ1shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ2">
-                    <div className="middleCircle" id="circ2shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ3">
-                    <div className="middleCircle" id="circ3shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ4"></div>
-                <div className="smallCircle" id="circ5">
-                    <div className="smallCircle" id="circ5shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ6">
-                    <div className="smallCircle" id="circ6shadow"></div>
-                </div>
-            </div>
-
-            <div className="bigCloud" id="cloud6">
-                <div className="largeCircle" id="circ1">
-                    <div className="largeCircle" id="circ1shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ2">
-                    <div className="middleCircle" id="circ2shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ3">
-                    <div className="middleCircle" id="circ3shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ4"></div>
-                <div className="smallCircle" id="circ5">
-                    <div className="smallCircle" id="circ5shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ6">
-                    <div className="smallCircle" id="circ6shadow"></div>
-                </div>
-            </div>
-
-            <div className="bigCloud" id="cloud7">
-                <div className="largeCircle" id="circ1">
-                    <div className="largeCircle" id="circ1shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ2">
-                    <div className="middleCircle" id="circ2shadow"></div>
-                </div>
-                <div className="middleCircle" id="circ3">
-                    <div className="middleCircle" id="circ3shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ4"></div>
-                <div className="smallCircle" id="circ5">
-                    <div className="smallCircle" id="circ5shadow"></div>
-                </div>
-                <div className="smallCircle" id="circ6">
-                    <div className="smallCircle" id="circ6shadow"></div>
-                </div>
-            </div>
-
-            <div className="App">
-                <div className="Menu" style={{ width: "100vw", backgroundColor: "00ffff" }}>
- 
-               
-                <HashRouter>
-                        <Link to="/" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>Home</Link>{' '}
-                        <Link to="/About" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>About me</Link>{' '}
-                        <Link to="/MyProjects" style={{ color: 'white', fontSize: 20, marginRight: 30 }}>My Projects</Link>{' '}
-                       
-                        <Routes>
-                            <Route path="/" element={<Home />} />
-                            <Route path="/About" element={<About />} />
-                            <Route path="/MyProjects" element={<MyProjects />} />
-                        </Routes>
-                   </HashRouter>
-
-                </div>
-            </div>
-        </div>
-    )
-}
+    const ScrollToSection = () => {
+        const { hash } = useLocation(); // Get current hash from URL
       
+        useEffect(() => {
+          if (hash) {
+            const element = document.querySelector(hash); 
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth' }); 
+            }
+          }
+        }, [hash]); 
+      
+        return null; 
+      };
+
+  return (
+ <>
+      <HashRouter>
+        <div className="Menu">
+        <nav>
+          <Link to="/#home" className="link">Home</Link>{' '}
+          <Link to="/#contacts" className="link">Contact me</Link>{' '}
+          <Link to="/MyProjects" className="link">My Projects</Link>{' '}
+          <Link to="/#certificates" className="link">Certifications</Link>{' '}
+          <Link to="https://github.com/dianaefimova"
+          target="_blank" rel="noreferrer">
+          <FaGithub style={{width: 20, height: 20,  color: 'white', marginLeft: 20 }} />
+          </Link>
+          <Link to="https://www.linkedin.com/in/diana-efimova-34b5711b4"
+          target="_blank" rel="noreferrer">
+          <FaLinkedin style={{width: 20, height: 20,  color: 'white', marginLeft: 20 }} />
+          </Link>
+
+          <div style={{marginLeft: '65%'}}>
+             <a href="https://drive.google.com/file/d/1rrskNxUJl9ALjSq1dXOpXWyH5_Y48ryT/view?usp=sharing" target="_blank" rel="noreferrer">
+           <button style={{backgroundColor: '#ede8f5', padding: '4px 20px', borderRadius: '7px'}}>
+            CV
+           </button>
+            </a>
+          </div>
+
+        </nav>
+        <ScrollToSection />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/MyProjects" element={<MyProjects />} />
+        </Routes>
+        </div>
+      </HashRouter>
+
+      <section id="contacts">
+  <div class="contacts">
+   <table>
+    <tr>
+      <th>CONTACT</th>
+      <th>FOLLOW</th>
+      <th>PORTFOLIO</th>
+    </tr>
+       <tr>
+          <td>diana.v.efimova@gmail.com</td>
+          <td><a href="https://www.linkedin.com/in/diana-efimova-34b5711b4/" target="_blank" rel="noreferrer" style={{color: '#ede8f5', textDecoration:'none'}}>LinkedIn</a></td>
+          <td><td><a href="https://github.com/dianaefimova" target="_blank" rel="noreferrer" style={{color: '#ede8f5', textDecoration:'none'}}>GitHub</a></td></td>
+        </tr>
+
+   </table>
+    </div>
+</section>
+      </>
+  );
+};
+
 export default App;
