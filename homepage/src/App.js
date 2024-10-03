@@ -41,15 +41,6 @@ const App = () => {
           target="_blank" rel="noreferrer">
           <FaLinkedin style={{width: 20, height: 20,  color: 'white', marginLeft: 20 }} />
           </Link>
-
-          <div style={{marginLeft: '65%'}}>
-             <a href="https://drive.google.com/file/d/1rrskNxUJl9ALjSq1dXOpXWyH5_Y48ryT/view?usp=sharing" target="_blank" rel="noreferrer">
-           <button style={{backgroundColor: '#ede8f5', padding: '4px 20px', borderRadius: '7px'}}>
-            CV
-           </button>
-            </a>
-          </div>
-
         </nav>
         <ScrollToSection />
         <Routes>
