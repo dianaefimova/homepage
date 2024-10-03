@@ -156,7 +156,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '50%', 
+      top: '60%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -198,7 +198,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '50%', 
+      top: '60%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -239,7 +239,7 @@ const Home = () => {
     <span
       style={{
         position: 'absolute',
-        top: '50%',
+        top: '60%',
         left: '120px',
         transform: 'translateY(-50%)',
         lineHeight: '1.5',
@@ -279,7 +279,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '50%', 
+      top: '60%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -319,7 +319,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '50%', 
+      top: '60%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -359,7 +359,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '50%', 
+      top: '60%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 

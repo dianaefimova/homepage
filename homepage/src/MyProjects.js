@@ -56,7 +56,7 @@ const MyProjects = () =>  {
     style={{
       position: 'absolute',
       top: '50%', 
-      left: '120px', 
+      left: '100px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
       width: '500px', 
@@ -100,7 +100,7 @@ const MyProjects = () =>  {
     style={{
       position: 'absolute',
       top: '50%', 
-      left: '120px', 
+      left: '100px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
       width: '500px', 
@@ -141,7 +141,7 @@ const MyProjects = () =>  {
       style={{
         position: 'absolute',
         top: '50%',
-        left: '120px',
+        left: '100px',
         transform: 'translateY(-50%)',
         lineHeight: '1.5',
         width: '450px',
@@ -182,7 +182,7 @@ const MyProjects = () =>  {
     style={{
       position: 'absolute',
       top: '50%', 
-      left: '120px', 
+      left: '100px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
       width: '500px', 
@@ -239,7 +239,7 @@ const MyProjects = () =>  {
     style={{
       position: 'absolute',
       top: '50%', 
-      left: '120px', 
+      left: '100px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
       width: '500px', 
@@ -283,7 +283,7 @@ const MyProjects = () =>  {
     style={{
       position: 'absolute',
       top: '50%', 
-      left: '120px', 
+      left: '100px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
       width: '500px', 
@@ -335,7 +335,7 @@ const MyProjects = () =>  {
       style={{
         position: 'absolute',
         top: '50%',
-        left: '120px',
+        left: '100px',
         transform: 'translateY(-50%)',
         lineHeight: '1.5',
         width: '500px',
@@ -377,7 +377,7 @@ const MyProjects = () =>  {
     style={{
       position: 'absolute',
       top: '50%', 
-      left: '120px', 
+      left: '100px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
       width: '500px', 
