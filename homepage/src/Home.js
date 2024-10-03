@@ -125,12 +125,12 @@ const Home = () => {
 
     <h1>Certifications</h1>
 
-    <div style={{ display: 'flex', marginLeft: 100, flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', marginLeft: 100, flexWrap: 'wrap', textAlign:'center' }}>
     {/* badge 1 */}
-   <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
+   <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
   <Rectangle
     width={500}
-    height={110}
+    height={130}
     fill={{ color: '#ede8f5' }}
     stroke={{ color: '#3d52a0' }}
     strokeWidth={2}
@@ -145,7 +145,7 @@ const Home = () => {
       width: 105,
       height: 100,
       position: 'absolute',
-      top: 5,    
+      top: 10,    
       left: 5,   
     }}
     src={azure1}
@@ -169,10 +169,10 @@ const Home = () => {
   </span>
  </div>
 {/* badge 2 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
+ <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
   <Rectangle
     width={500}
-    height={110}
+    height={130}
     fill={{ color: '#ede8f5' }}
     stroke={{ color: '#3d52a0' }}
     strokeWidth={2}
@@ -187,7 +187,7 @@ const Home = () => {
       width: 105,
       height: 100,
       position: 'absolute',
-      top: 5,    
+      top: 10,    
       left: 5,   
     }}
     src={azure3}
@@ -210,10 +210,10 @@ const Home = () => {
   </span>
  </div>
 {/* badge 3 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
+ <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
     <Rectangle
       width={500}
-      height={110}
+      height={130}
       fill={{ color: '#ede8f5' }}
       stroke={{ color: '#3d52a0' }}
       strokeWidth={2}
@@ -229,7 +229,7 @@ const Home = () => {
           width: 105,
           height: 100,
           position: 'absolute',
-          top: 5,
+          top: 10,
           left: 5,
         }}
         src={aws}
@@ -251,10 +251,10 @@ const Home = () => {
     </span>
  </div>
 {/* badge 4 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
+ <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
   <Rectangle
     width={500}
-    height={110}
+    height={130}
     fill={{ color: '#ede8f5' }}
     stroke={{ color: '#3d52a0' }}
     strokeWidth={2}
@@ -269,7 +269,7 @@ const Home = () => {
       width: 105,
       height: 100,
       position: 'absolute',
-      top: 5,    
+      top: 10,    
       left: 5,   
     }}
     src={azure2}
@@ -291,10 +291,10 @@ const Home = () => {
   </span>
  </div>
 {/* badge 5 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
+ <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
   <Rectangle
     width={500}
-    height={110}
+    height={130}
     fill={{ color: '#ede8f5' }}
     stroke={{ color: '#3d52a0' }}
     strokeWidth={2}
@@ -309,7 +309,7 @@ const Home = () => {
       width: 105,
       height: 100,
       position: 'absolute',
-      top: 5,    
+      top: 10,    
       left: 5,   
     }}
     src={atlassian}
@@ -331,10 +331,10 @@ const Home = () => {
   </span>
  </div>
 {/* badge 6 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
+ <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
   <Rectangle
     width={500}
-    height={110}
+    height={130}
     fill={{ color: '#ede8f5' }}
     stroke={{ color: '#3d52a0' }}
     strokeWidth={2}
@@ -349,7 +349,7 @@ const Home = () => {
       width: 105,
       height: 100,
       position: 'absolute',
-      top: 5,    
+      top: 10,    
       left: 5,   
     }}
     src={atlassian}
