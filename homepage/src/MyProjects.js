@@ -28,7 +28,7 @@ const MyProjects = () =>  {
   <h1>Projects</h1>
   <br></br>
     
-<div style={{ display: 'flex', marginLeft: '15%', flexWrap: 'wrap' }}>
+<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', textAlign: 'center', margin: '0'}}>
 <Fade bottom>
   {/* project 1 */}
  <div style={{ position: 'relative', width: 600, height: 210, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
@@ -211,7 +211,7 @@ const MyProjects = () =>  {
   </video>
  )}
 
-<div style={{ display: 'flex', marginLeft: '15%', flexWrap: 'wrap' }}>
+<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', textAlign: 'center', margin: '0'}}>
 <Fade bottom>
   {/* project 1 */}
  <div style={{ position: 'relative', width: 600, height: 210, marginRight: 40, marginLeft: 20, marginBottom: 20 }}> 
@@ -307,7 +307,7 @@ const MyProjects = () =>  {
   </>
   )}
 
-<div style={{ display: 'flex', marginLeft: '15%', flexWrap: 'wrap' }}>
+<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', textAlign: 'center', margin: '0'}}>
 <Fade bottom>
 {/* project 3 */}
  <div style={{ position: 'relative', width: 600, height: 210, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>

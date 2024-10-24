@@ -46,7 +46,7 @@ const Home = () => {
   useEffect(() => {
     reset();
 
-  const intervalId = setInterval(reset, 20000);
+ 
     return () =>
   ref.current.forEach(clearTimeout);
 
@@ -59,7 +59,7 @@ const Home = () => {
         <div style={{ position: 'relative', width: '100%', height: 'auto', textAlign: 'center', marginBottom: 20 }}>
           <h1 style={{ display: 'inline-block', margin: 0 }}>Diana Efimova</h1>
           <Fade right>
-            <div style={{ position: 'absolute', top: '0', right: '0', width: '500px', height: '30px' }}>
+            <div style={{ position: 'absolute', top: '0', right: '0', width: '20%', height: '30px', marginTop:'5%' }}>
     <Rectangle
       width={500}
       height={30}
@@ -74,6 +74,7 @@ const Home = () => {
       left: '20px', 
       transform: 'translateY(-40%)', 
       width: '50px',
+    
     }}>
       <a href="https://drive.google.com/file/d/1rrskNxUJl9ALjSq1dXOpXWyH5_Y48ryT/view?usp=sharing" target="_blank" rel="noreferrer">
         <button style={{ backgroundColor: '#ede8f5', padding: '4px 20px', borderRadius: '7px' }}>
@@ -125,7 +126,7 @@ const Home = () => {
 
     <h1>Certifications</h1>
 
-    <div style={{ display: 'flex', marginLeft: 100, flexWrap: 'wrap', textAlign:'center' }}>
+    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', textAlign: 'center', margin: '0'}}>
     {/* badge 1 */}
    <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
   <Rectangle
