@@ -30,6 +30,48 @@ const MyProjects = () =>  {
     
 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', textAlign: 'center', margin: '0'}}>
 <Fade bottom>
+<div style={{ position: 'relative', width: 600, height: 210, marginRight: 40, marginLeft: 20, marginBottom: 20 }}> 
+  <Rectangle
+    width={600}
+    height={210}
+    fill={{ color: '#ede8f5' }}
+    stroke={{ color: '#3d52a0' }}
+    strokeWidth={2}
+    rx={10}
+    ry={10}
+  />
+  <PiDroneBold 
+    style={{
+      position: 'absolute',  
+      top: '55%',             
+      left: '30px',           
+      transform: 'translateY(-50%)',  
+      width: 60,
+      height: 60,
+      color: 'black'
+    }}
+  />
+  <span
+    style={{
+      position: 'absolute',
+      top: '50%', 
+      left: '100px', 
+      transform: 'translateY(-50%)', 
+      lineHeight: '1.5', 
+      width: '500px', 
+    }}
+  >
+   <b><u>Echo Trails</u></b> <br></br>
+Developed using <em>React</em> and <em>Firebase</em>.  <b>Available at <a href="https://echo-trails.web.app/" target="_blank" rel="noreferrer">Echo-trails.web.app</a></b> <br></br>
+<b>Objective:</b> Create an interactive platform to explore Nordic countries, featuring cities, landmarks, and historical information. <br></br>
+<b>Key Features:</b><br></br>
+- Integration with <em>Firebase NoSQL real-time database</em> to manage and synchronize user-generated and static content. <br></br>
+- Utilized a local <em>JSON database</em> for fallback and offline capabilities. <br></br>
+- <em>Firebase Authentication</em> implemented for secure user login and registration. <br></br>
+
+    <a href="https://github.com/dianaefimova/Echo-trails" target="_blank" rel="noreferrer">GitHub Echo Trails</a>
+  </span>
+ </div>
   {/* project 1 */}
  <div style={{ position: 'relative', width: 600, height: 210, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
   <Rectangle
@@ -167,17 +209,17 @@ const MyProjects = () =>  {
     rx={10}
     ry={10}
   />
-    <FaJsSquare
+    <FaReact
     style={{
       position: 'absolute',  
-      top: '50%',             
+      top: '55%',             
       left: '30px',           
       transform: 'translateY(-50%)',  
       width: 60,
       height: 60,
       color: 'black'
     }}
-    />
+  />
   <span
     style={{
       position: 'absolute',
@@ -213,6 +255,7 @@ const MyProjects = () =>  {
 
 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', textAlign: 'center', margin: '0'}}>
 <Fade bottom>
+
   {/* project 1 */}
  <div style={{ position: 'relative', width: 600, height: 210, marginRight: 40, marginLeft: 20, marginBottom: 20 }}> 
   <Rectangle
@@ -392,6 +435,48 @@ const MyProjects = () =>  {
     - PostgreSQL used for database management   <br></br>
     - Email-based registration system for user authentication and verification   <br></br>
     <a href="https://github.com/dianaefimova/Java-backend-registrationPage" target="_blank" rel="noreferrer">GitHub Registration Page</a> <br></br>
+  </span>
+ </div>
+ <div style={{ position: 'relative', width: 600, height: 210, marginRight: 40, marginLeft: 20, marginBottom: 20 }}>
+  <Rectangle
+    width={600}
+    height={210}
+    fill={{ color: '#ede8f5' }}
+    stroke={{ color: '#3d52a0' }}
+    strokeWidth={2}
+    rx={10}
+    ry={10}
+  />
+  <FaJava
+    style={{
+      position: 'absolute',  
+      top: '50%',             
+      left: '30px',           
+      transform: 'translateY(-50%)',  
+      width: 60,
+      height: 60,
+      color: 'black'
+    }}
+  />
+  <span
+    style={{
+      position: 'absolute',
+      top: '50%', 
+      left: '100px', 
+      transform: 'translateY(-50%)', 
+      lineHeight: '1.5', 
+      width: '500px', 
+    }}
+  >
+    <b><u>Educational Management System (IN PROGRESS)</u></b> <br></br>
+    Developed using <em>Java Spring Boot</em> and <em>React</em>. <br></br>
+    <b>Objective:</b> Build a centralized system to track university data. <br></br>
+<b>Key Features:</b><br></br>
+- Backend developed with <em>Java Spring Boot</em>, providing secure API endpoints. <br></br>
+- Local <em>JSON database</em> used for lightweight data storage and testing. <br></br>
+- RESTful APIs for real-time communication with the frontend. <br></br>
+- Collaborative group project: backend development (my role), frontend developer (Tomas Glavina), UI designer (Prithviraj Kalburgi). <br></br>
+    <a href="https://github.com/dianaefimova/Edu-hub" target="_blank" rel="noreferrer">GitHub Edu Hub</a> <br></br>
   </span>
  </div>
  </Fade>
