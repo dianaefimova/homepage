@@ -1,0 +1,162 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "title": "Echo Trails",
+        "description": "Create an interactive platform to explore Nordic countries, featuring cities, landmarks, and historical information.",
+        "developedWith": ["React", "Firebase"],
+        "keyFeatures": [
+          "Integration with Firebase NoSQL real-time database to manage and synchronize user-generated and static content.",
+          "Utilized a local JSON database for fallback and offline capabilities.",
+          "Firebase Authentication implemented for secure user login and registration."
+        ],
+        "links": {
+          "live": "https://echo-trails.web.app/",
+          "github": "https://github.com/dianaefimova/Echo-trails"
+        },
+        "icon": "PiDroneBold"
+      },
+      {
+        "id": "2",
+        "title": "Educational Management System",
+        "description": "Build a centralized system to track university data.",
+        "developedWith": ["Java", "Spring Boot", "React"],
+        "keyFeatures": [
+          "Backend developed with Java Spring Boot, providing secure API endpoints",
+          "Separate deployment of backend (Render) and frontend (Firebase) for scalability",
+          "Local JSON database used for lightweight data storage and testing",
+          "RESTful APIs for real-time communication with the frontend",
+          "Collaborative group project"
+        ],
+        "links": {
+          "live": "https://eduhub-pakki.web.app/",
+          "github": "https://github.com/dianaefimova/Edu-hub"
+        },
+        "icon": "FaJava"
+      },
+      {
+        "id": "3",
+        "title": "Android Application 'Jokes On You'",
+        "description": "Create an Android app using a RESTful API for daily casual use.",
+        "developedWith": ["Java", "Android Studio"],
+        "keyFeatures": [
+          "Connection to 'Jokes' RESTful API",
+          "7 activities",
+          "Callbacks: onSaveInstanceState(), onRestoreInstanceState()",
+          "All strings translated to two languages (Spanish, Finnish)"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/Android-App-JokesOnYou"
+        },
+        "icon": "DiAndroid"
+      },
+      {
+        "id": "4",
+        "title": "Neural Networks Training",
+        "description": "Train a multiclass ANN to accurately predict raisin classes using raisin data.",
+        "developedWith": ["Python"],
+        "keyFeatures": [
+          "Data scaling",
+          "Neural network training and testing",
+          "Confusion matrix and accuracy score"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/Neural-networks-training"
+        },
+        "icon": "FaPython"
+      },
+      {
+        "id": "5",
+        "title": "Sorting and Searching Program",
+        "description": "Implement a program that focuses on efficient sorting and searching algorithms.",
+        "developedWith": ["Java"],
+        "keyFeatures": [
+          "Emphasis on sorting and searching algorithms",
+          "Optimized with time complexities of O(n²) and O(nlog(n))"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/JavaSorting_SearchingProject"
+        },
+        "icon": "FaJava"
+      },
+      {
+        "id": "6",
+        "title": "Forecast Application",
+        "description": "Develop a forecast application that fetches and displays recent weather data from TAMK API.",
+        "developedWith": ["JavaScript", "HTML", "CSS"],
+        "keyFeatures": [
+          "Connection to TAMK weather database API",
+          "Fetching and displaying data in tables sorted by dates and weather types",
+          "Visualization data with Gantt charts and graphs"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/Weather-app",
+          "demo": "https://drive.google.com/file/d/1sabeX6YQkNS4pcYFfglDjATMapZ___tT/view?usp=sharing"
+        },
+        "icon": ""
+      },
+      {
+        "id": "7",
+        "title": "Drone Fleet Management System",
+        "description": "Manage a fleet of drones for operations, with a focus on food delivery services.",
+        "developedWith": ["Java"],
+        "keyFeatures": [
+          "Drone Management (add, update, delete, and view drones in the fleet)",
+          "In-memory Data Storage",
+          "Usage of Spring Boot library"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/Drones-transportation",
+          "example": "https://drive.google.com/file/d/1hkxB1twnSh7Pf5ARQvNQzV7immIJBVuH/view?usp=sharing"
+        },
+        "icon": "PiDroneBold"
+      },
+      {
+        "id": "8",
+        "title": "Profile Website",
+        "description": "Build a responsive website using React, focused on delivering a seamless user experience.",
+        "developedWith": ["JavaScript", "HTML", "CSS"],
+        "keyFeatures": [
+          "Utilizes React libraries for enhanced functionality",
+          "Fully responsive design for smooth user experience"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/homepage"
+        },
+        "icon": "FaReact"
+      },
+      {
+        "id": "9",
+        "title": "Grading Program",
+        "description": "Create a program to evaluate students, collect their information, calculate final grades, and allow sorting of student lists.",
+        "developedWith": ["C++"],
+        "keyFeatures": [
+          "Calculates final grades based on a weighted formula",
+          "Provides sorting options by final grade or name using bubble sort algorithm",
+          "Displays filled forms with students' details and calculated grades"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/Grading-program"
+        },
+        "icon": "PiStudent"
+      },
+      {
+        "id": "10",
+        "title": "Java Backend Registration Page (IN PROGRESS)",
+        "description": "Implement email-based user registration for a webpage.",
+        "developedWith": ["Java", "Spring Boot"],
+        "keyFeatures": [
+          "Development with Spring Boot",
+          "Focus on security for user registration",
+          "PostgreSQL used for database management",
+          "Email-based registration system for user authentication and verification"
+        ],
+        "links": {
+          "github": "https://github.com/dianaefimova/Java-backend-registrationPage"
+        },
+        "icon": "SiPostgresql"
+      }
+
+    ]
+  }
+  

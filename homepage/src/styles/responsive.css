@@ -1,0 +1,219 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+  .certification {
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+     flex-wrap: wrap;
+     margin: 0;
+     text-align: center;
+  }
+  
+  .project-card {
+    flex: 1 1 calc(50% - 40px);
+    max-width: calc(50% - 40px);
+    min-width: auto;
+    padding: 10px;
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+  }
+
+  .certification-rectangle{
+    position: relative;
+    width: 500px;
+    height: 110; 
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: 2000px) {
+    .project-card {
+      flex: 1 1 calc(33.33% - 40px); 
+     
+      max-width: calc(33.33% - 40px);
+    }
+    .menu-icon {
+        display: none; 
+  }
+}
+
+  @media (min-width: 1200px) {
+
+    .menu-icon {
+        display: none; 
+      }
+
+      .nav-elements .link {
+        text-decoration: none; 
+        color: white; 
+        margin-right: 20px;
+ 
+      }
+      .nav-elements .link:hover {
+        text-decoration: underline; 
+      }
+      .nav-elements {
+        justify-content: flex-start; 
+      }
+ 
+    
+  }
+  
+
+  
+  @media (max-width: 1200px) {
+    .project-card {
+      flex: 1 1 100%; 
+      max-width: 100%;
+    }
+    .project-text {
+      font-size:small;
+    }
+    .rectangle {
+      height:auto ;
+      padding: 10px;
+    }
+    .icon {
+
+      width: 40px;
+      height: 40px;
+    }
+    .certification {
+       
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-left: 2%;
+    }
+    .certification-rectangle{
+        height: auto;
+    }
+    header{
+        font-size: medium;
+    }
+    img{
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size:xx-large;
+    }
+    .nav-elements {
+        position: absolute;
+        left: 0;
+        top: 50px;
+        background-color: #3d52a0; 
+        width: auto; 
+        height: 0; 
+        transition: height 0.3s ease-in-out; 
+        overflow: hidden; 
+        flex-direction: column;
+        padding: 0; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        z-index: 1000;
+        margin-left: 5px;
+      }
+    
+      .nav-elements.active {
+        height: auto; 
+        padding: 10px 0; 
+      }
+      .nav-elements .link {
+        display: block; 
+        
+        text-align: center; 
+        padding: 10px 20px;
+        font-size: 16px; 
+        text-decoration: none;
+        border-bottom: 1px solid #f0f0f0; 
+      }
+      .nav-elements .link-last{
+        display: block; 
+        text-align: center; 
+        padding: 10px 20px; 
+        font-size: 16px; 
+        text-decoration: none;
+      }
+      .menu-icon {
+        display:inline;
+        color: white; 
+        cursor: pointer; 
+        z-index: 9999;
+        font-size: 24px; 
+        position: relative; 
+      }
+      .nav-elements .link:hover {
+        background-color: #f0f0f0;
+        color: #3d52a0; 
+      }
+   .footer {
+    display: none;
+   }
+  }
+  
+  .rectangle {
+    position: relative;
+    width: 100%;
+    height: 310px;
+    padding: 20px; 
+    background-color: #ede8f5;
+    border: 2px solid #3d52a0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    color: black;
+  }
+  
+  .project-text {
+    flex-grow: 1; 
+    word-wrap: break-word; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    line-height: 1.5;
+    color: black;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align links to the left */
+    align-items: center;
+    background-color: #3d52a0; /* Set background color */
+    padding: 0 10px; /* Add small horizontal padding */
+    margin: 0; /* Remove any default margins */
+    width: 100%; /* Ensure the navbar spans the full width */
+    box-sizing: border-box; /* Include padding in the element's width */
+  }
+  
+
+  .nav-elements .link {
+    text-decoration: none; 
+    color: white;
+    font-size: 18px;
+
+  }
+  
+  .nav-elements .link:hover {
+    text-decoration: underline;
+  }
+  .nav-elements .icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+  }
+  
+
+
+
+  
+  

@@ -16,40 +16,20 @@
     min-height: 100%;
   }
   
-  nav {
-    position: fixed;
-    top: 0; 
-    z-index: 1000;   
-    display: flex;
-    justify-content: left;
-    background-color: #3d52a0;
-    margin-top: 15px;
-    width: 100%;
-    padding: 5px 0;
-  }
-  
-  .link {
-    margin: 0 15px;
-    color: #ede8f5;
-    text-decoration: none;
-    font-weight: bold;
-  }
 
   .contacts {
     z-index: 1000;   
     display: flex;
     flex-direction: column;
-    justify-content: left;
     background-color: #3d52a0;
     width: 100%;
     padding: 5px 0;
     font-family: 'Tahoma', sans-serif;
     color: #ede8f5;
     font-size: 15px;
-    text-align: left;
-    
-    
+      
   }
+
   
   table {
     width: 35%;
@@ -61,4 +41,4 @@
     text-align: left;
    
   }
-
+  

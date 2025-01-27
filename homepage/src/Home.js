@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useTransition, animated } from '@react-spring/web';
-import Fade from "react-reveal/Reveal";
 import index2 from './pictures/index2.jpeg';
 import index from './pictures/index.jpeg';
 import styles from './styles.module.css';
@@ -10,6 +10,8 @@ import azure2 from './pictures/azure-data-fundamentals.png';
 import azure3 from './pictures/azure-ai-fundamentals.png';
 import aws from './pictures/aws-academy.png';
 import atlassian from './pictures/atlassian.png';
+import './styles/responsive.css';
+
 
 
 const Home = () => {
@@ -55,36 +57,8 @@ const Home = () => {
 
   return ( 
     <div className={styles.homeContent}>
-      <section id="home">
-        <div style={{ position: 'relative', width: '100%', height: 'auto', textAlign: 'center', marginBottom: 20 }}>
-          <h1 style={{ display: 'inline-block', margin: 0 }}>Diana Efimova</h1>
-          <Fade right>
-            <div style={{ position: 'absolute', top: '0', right: '0', width: '20%', height: '30px', marginTop:'5%' }}>
-    <Rectangle
-      width={500}
-      height={30}
-      fill={{ color: '#3d52a0' }}
-      stroke={{ color: '#3d52a0' }}
-      strokeWidth={2}
-    />
-    
-    <div style={{
-      position: 'absolute',
-      top: '50%', 
-      left: '20px', 
-      transform: 'translateY(-40%)', 
-      width: '50px',
-    
-    }}>
-      <a href="https://drive.google.com/file/d/1rrskNxUJl9ALjSq1dXOpXWyH5_Y48ryT/view?usp=sharing" target="_blank" rel="noreferrer">
-        <button style={{ backgroundColor: '#ede8f5', padding: '4px 20px', borderRadius: '7px' }}>
-          CV
-        </button>
-      </a>
-    </div>
-  </div>
-  </Fade>
-</div>
+      <section id="home" className="text-center my-5">       
+          <h1 className="fw-bold">Diana Efimova</h1>
       <header>
         <div className={styles.container}>
           <div className={styles.main}>
@@ -104,31 +78,34 @@ const Home = () => {
         </header>
         </section>
         <items>
-      <div className="Pics">
-      <img style={{ width: 320, height: 400, marginRight: 50}}  src={index2} alt="Pic2" />
-      <img style={{ width: 320, height: 400}} src={index} alt="Pic"  />
+    
+      <div className="photos-block">
+        <img className="img-fluid rounded" style={{ width: 320, height: 400}}  src={index2} alt="Pic2" />
+        <img className="img-fluid rounded" style={{ width: 320, height: 400}} src={index} alt="Pic"  />
       </div>
-      
-      <Fade bottom>    
-  <div className="text-block" style={{textAlign:'center'}}>
+
+      <div className="text-block" style={{textAlign:'center'}}>
       <em>
-     <h3> Welcome to my portfolio! I'm a Software Engineering student at TAMK, I came to coding for practical reasons but ended up finding my life passion.</h3><p>
-      I love the creativity and problem-solving in full stack development,
-      especially when working with React to build dynamic, user-friendly applications. Lately, I've been diving deep into Java projects,
-      really getting into backend development. <br></br>
-      I'm also interested in working with cloud technology and have been gaining hands-on experience with both AWS and Azure services, exploring the endless possibilities they offer for scalable, 
-      modern solutions.
-      I’m always eager to connect with fellow developers and am open to exciting work opportunities that allow me to grow and contribute to impactful projects.
+        <h3><b> Welcome to my portfolio! I'm a Software Engineering student at TAMK, I came to coding for practical reasons but ended up finding my life passion.</b></h3><p>
+             I love the creativity and problem-solving in full stack development,
+             especially when working with React to build dynamic, user-friendly applications. Lately, I've been diving deep into Java projects,
+             really getting into backend development. <br></br>
+             I'm also interested in working with cloud technology and have been gaining hands-on experience with both AWS and Azure services, exploring the endless possibilities they offer for scalable, 
+             modern solutions.
+             I’m always eager to connect with fellow developers and am open to exciting work opportunities that allow me to grow and contribute to impactful projects.
       </p></em>
-  </div>
+     </div>
+     
  
   <section id="certificates">
 
-    <h1>Certifications</h1>
+  <section id="home" className="text-center my-5">       
+    <h1 className="fw-bold">Certifications</h1>
+  </section>
 
-    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', textAlign: 'center', margin: '0'}}>
+    <div className='certification'>
     {/* badge 1 */}
-   <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
+   <div className='certification-rectangle'>
   <Rectangle
     width={500}
     height={130}
@@ -157,7 +134,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '60%', 
+      top: '50%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -170,7 +147,7 @@ const Home = () => {
   </span>
  </div>
 {/* badge 2 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
+ <div className='certification-rectangle'>
   <Rectangle
     width={500}
     height={130}
@@ -199,7 +176,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '60%', 
+      top: '50%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -211,7 +188,7 @@ const Home = () => {
   </span>
  </div>
 {/* badge 3 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
+ <div className='certification-rectangle'>
     <Rectangle
       width={500}
       height={130}
@@ -240,7 +217,7 @@ const Home = () => {
     <span
       style={{
         position: 'absolute',
-        top: '60%',
+        top: '50%',
         left: '120px',
         transform: 'translateY(-50%)',
         lineHeight: '1.5',
@@ -252,7 +229,7 @@ const Home = () => {
     </span>
  </div>
 {/* badge 4 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
+ <div className='certification-rectangle'>
   <Rectangle
     width={500}
     height={130}
@@ -280,7 +257,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '60%', 
+      top: '50%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -292,7 +269,7 @@ const Home = () => {
   </span>
  </div>
 {/* badge 5 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
+ <div className='certification-rectangle'>
   <Rectangle
     width={500}
     height={130}
@@ -320,7 +297,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '60%', 
+      top: '50%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -332,7 +309,7 @@ const Home = () => {
   </span>
  </div>
 {/* badge 6 */}
- <div style={{ position: 'relative', width: 500, height: 110, marginRight: 40, marginLeft: 20, marginBottom: 40 }}>
+ <div className='certification-rectangle'>
   <Rectangle
     width={500}
     height={130}
@@ -360,7 +337,7 @@ const Home = () => {
   <span
     style={{
       position: 'absolute',
-      top: '60%', 
+      top: '50%', 
       left: '120px', 
       transform: 'translateY(-50%)', 
       lineHeight: '1.5', 
@@ -373,7 +350,7 @@ const Home = () => {
  </div>
 </div>
 </section>
-    </Fade>
+
       </items>
 </div>
     
@@ -381,4 +358,3 @@ const Home = () => {
 };
 
 export default Home;
-

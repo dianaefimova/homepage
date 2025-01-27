@@ -1,8 +1,8 @@
 
    .main {
     min-width: 100px;
-    padding: 0 20px;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
     height: 100px;
   }
   
@@ -31,10 +31,9 @@
 
   h1 {
     text-align: center;
-    font-size: 35px;
     margin-bottom:0.5em;
-    margin-top: 0.2%;
-    
+    margin-top: 0.4%;
+    font-size:35px;
   }
 
   h3{
@@ -42,6 +41,7 @@
     margin-left: 25%;
     width: 40%;
     margin-top: 2%;
+    font-size:larger;
   }
 
   p {
@@ -53,17 +53,17 @@
    margin-bottom: 5%;
   }
 
+
   span{
     text-align: left;
     color:#162350;
     font-size: 14px;
   }
 
-  header{
+  header {
     text-align: center;
     font-size: 24px;
-    margin-bottom: 0;
-    margin-top: 0.5em;
+    margin: 0.5em 0;  
   }
 
   items{
@@ -106,15 +106,32 @@
 
   img{
     text-align: center;
+    margin-right: 5%;
+    margin-bottom: 0;
   }
   
   button{
-    margin-left: 25%;
+
     background-color:#adbbda;
     border-color:#3d52a0;
     margin-bottom: 5px;
   }
 
-  
+.projects-block{
 
+  grid-template-columns: 1fr 1fr 0fr 0fr;
+  position:relative;
+   width: 600px;
+    margin: 20px;
+}
+
+
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between the cards */
+  }
+  
   
