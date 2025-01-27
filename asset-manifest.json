@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.0c58d1b5.css",
-    "main.js": "/homepage/static/js/main.6485393f.js",
-    "static/media/project1.mp4": "/homepage/static/media/project1.dca03ec9090b5df0a91b.mp4",
-    "static/media/index.jpeg": "/homepage/static/media/index.d50ecc56cec7ed0a0dad.jpeg",
-    "static/media/DroneExample.png": "/homepage/static/media/DroneExample.50097680abbef8738b9c.png",
-    "static/media/index2.jpeg": "/homepage/static/media/index2.a62c50c30042f514f82c.jpeg",
-    "static/media/azure-data-fundamentals.png": "/homepage/static/media/azure-data-fundamentals.f6bc4fa1f70c5fcbd12e.png",
-    "static/media/azure-ai-fundamentals.png": "/homepage/static/media/azure-ai-fundamentals.a288bd5ea93b37f58cba.png",
-    "static/media/azure-fundamentals.png": "/homepage/static/media/azure-fundamentals.4c16a436a090263d3f5d.png",
-    "static/media/aws-academy.png": "/homepage/static/media/aws-academy.696de654b2fbf6ffe460.png",
-    "static/media/atlassian.png": "/homepage/static/media/atlassian.a16c0f517773c0ecb63f.png",
-    "index.html": "/homepage/index.html",
-    "main.0c58d1b5.css.map": "/homepage/static/css/main.0c58d1b5.css.map",
-    "main.6485393f.js.map": "/homepage/static/js/main.6485393f.js.map"
+    "main.css": "/dianaefimova/homepage/static/css/main.b65e8340.css",
+    "main.js": "/dianaefimova/homepage/static/js/main.b65e2c06.js",
+    "static/media/index.jpeg": "/dianaefimova/homepage/static/media/index.d50ecc56cec7ed0a0dad.jpeg",
+    "static/media/index2.jpeg": "/dianaefimova/homepage/static/media/index2.a62c50c30042f514f82c.jpeg",
+    "static/media/azure-data-fundamentals.png": "/dianaefimova/homepage/static/media/azure-data-fundamentals.f6bc4fa1f70c5fcbd12e.png",
+    "static/media/azure-ai-fundamentals.png": "/dianaefimova/homepage/static/media/azure-ai-fundamentals.a288bd5ea93b37f58cba.png",
+    "static/media/azure-fundamentals.png": "/dianaefimova/homepage/static/media/azure-fundamentals.4c16a436a090263d3f5d.png",
+    "static/media/aws-academy.png": "/dianaefimova/homepage/static/media/aws-academy.696de654b2fbf6ffe460.png",
+    "static/media/atlassian.png": "/dianaefimova/homepage/static/media/atlassian.a16c0f517773c0ecb63f.png",
+    "index.html": "/dianaefimova/homepage/index.html",
+    "main.b65e8340.css.map": "/dianaefimova/homepage/static/css/main.b65e8340.css.map",
+    "main.b65e2c06.js.map": "/dianaefimova/homepage/static/js/main.b65e2c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c58d1b5.css",
-    "static/js/main.6485393f.js"
+    "static/css/main.b65e8340.css",
+    "static/js/main.b65e2c06.js"
   ]
 }
