@@ -28,6 +28,7 @@
     height: 110; 
     margin-right: 20px;
     margin-bottom: 40px;
+
   }
 
   @media (min-width: 2000px) {
@@ -59,7 +60,21 @@
       .nav-elements {
         justify-content: flex-start; 
       }
- 
+      
+      .rectangle {
+        position: relative;
+        width: 100%;
+        height: 340px;
+        padding: 20px; 
+        background-color: #ede8f5;
+        border: 2px solid #3d52a0;
+        border-radius: 10px;
+        display: flex;
+        align-items: center; 
+        gap: 20px; 
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px lightgrey;
+      }
     
   }
   
@@ -74,8 +89,17 @@
       font-size:small;
     }
     .rectangle {
-      height:auto ;
-      padding: 10px;
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding: 20px; 
+      background-color: #ede8f5;
+      border: 2px solid #3d52a0;
+      border-radius: 10px;
+      display: flex;
+      align-items: center; 
+      gap: 20px; 
+      box-sizing: border-box;
     }
     .icon {
 
@@ -153,19 +177,7 @@
    }
   }
   
-  .rectangle {
-    position: relative;
-    width: 100%;
-    height: 310px;
-    padding: 20px; 
-    background-color: #ede8f5;
-    border: 2px solid #3d52a0;
-    border-radius: 10px;
-    display: flex;
-    align-items: center; 
-    gap: 20px; 
-    box-sizing: border-box;
-  }
+
   
   .icon {
     flex-shrink: 0;
